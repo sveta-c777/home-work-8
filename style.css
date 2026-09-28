@@ -1,0 +1,51 @@
+/* Базові стилі контейнерів та кубиків */
+.block {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f0ecec;
+}
+
+.box {
+  width: 110px;
+  height: 50px;
+  background-color: #a2a1a1;
+}
+
+
+.left, .right, .center {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.row-1 {
+  justify-content: space-between;
+}
+
+
+.row-2 {
+  justify-content: space-between;
+}
+
+
+.row-3 {
+  justify-content: space-between;
+}
+
+
+.row-4 {
+  justify-content: flex-end;
+}
+
+
+.row-5 {
+  justify-content: center;
+}
